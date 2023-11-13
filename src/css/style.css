@@ -1,0 +1,138 @@
+@import url("./container.css");
+
+/* IMPORT FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+:root{
+    --cor-porto: #0c87fa;
+    --cor-porto-secundaria: rgb(0, 70, 192);
+    --cor-porto-terciaria: #00B2E3;
+    --cor-hover: rgb(1, 87, 236);
+    --cor-fundo: #01081C;
+    --cor-branco: #FFF;
+    --cor-preto: #000;
+
+    --gradiente-fundo: linear-gradient(90deg, var(--cor-fundo) 0%, rgb(10, 57, 82) 100%);
+    --gradiente-botao: linear-gradient(90deg, var(--cor-fundo), rgb(10, 134, 250), rgb(47, 203, 255));
+
+    --fonte-principal: 'Open Sans', sans-serif;
+}
+
+#submit{
+    width: 40%;
+}
+
+#about__next{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background: var(--gradiente-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+
+/* BACKGROUND ANIMATION*/
+body {
+    background: linear-gradient(226deg, #01081c, #041b30, #0c87fa);
+    background-size: 600% 600%;
+
+    -webkit-animation: backgroundAnimacao 23s ease infinite;
+    animation: backgroundAnimacao 23s ease infinite;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+main > img{
+    max-width: 100%;
+    border: 3px solid var(--cor-porto-secundaria);
+    border-radius: 10px;
+}
+
+h1, h2, p{
+    margin-bottom: 1rem;
+}
+
+.alert{
+    font-size: 2rem;
+    margin: 0 1rem 2rem 0;
+    vertical-align: middle;
+    color: red;
+}
+
+.aviso{
+    color: red;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.mensagem-alerta{
+    display: flex;
+    align-items: center;
+}
+
+@-webkit-keyframes backgroundAnimacao {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+@keyframes backgroundAnimacao {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+
+
+@media screen and (max-width: 1060px) {
+    .campos{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    body{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body{
+        font-size: 1.5rem;
+    }
+
+    main > img{
+        display: none;
+    }
+
+    h1, p{
+        font-size: 1.2rem;
+    }
+    .campos__buttons__layout{
+        width: 50%;
+        padding: 5% 0;
+        margin: 1rem 0;
+        font-size: 1.1rem;
+    }
+
+    .container{
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1365px) {
+    .campos{
+        display: flex;
+        flex-direction: column;
+    }
+}

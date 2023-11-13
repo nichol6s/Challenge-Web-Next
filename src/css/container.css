@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-branco);
+    text-align: center;
+    max-width: 100%;
+    min-height: 40vh;
+    width: 50%;
+    height: auto;
+    border: 3px solid var(--cor-porto-secundaria);
+    border-radius: 10px;
+    padding: 2%;
+    margin: 3% 0;
+}
+
+.campos__buttons__layout {
+    width: 40%;
+    text-decoration: none;
+    color: var(--cor-branco);
+    background-color: var(--cor-porto-secundaria);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem 0;
+}
+
+.campos__buttons__layout:hover{
+    cursor: pointer;
+    background-color: var(--cor-hover);
+}
+.campos__links{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    align-items: center;
+    width: 100%;
+}
+
+.mobile{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.container__paragraph{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.consulta{
+    min-height: 15vh;
+    border: none;
+    border-radius: 0;
+    background-color: none;
+}
+
+.link-to-consulta{
+    width: 50%;
+    margin: 1rem 0;
+}
+
+.link-to{
+    padding: 3%;
+}
