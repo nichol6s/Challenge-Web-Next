@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Inputs from "@/components/Inputs/Inputs";
+import Image from "next/image";
 
 export default function Consulta(){
     return(
