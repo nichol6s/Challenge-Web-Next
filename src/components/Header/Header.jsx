@@ -7,7 +7,7 @@ import {FaBicycle as Bike} from "react-icons/fa"
 export default function Header(){
     return (
         <header>
-            <img src="src/assets/porto.png" alt="Porto's logo without background" />
+            <img src="/porto.png" alt="Porto's logo without background"/>
             <nav>
                 <ul>
                     <li><Link href="/"><Home className="logo"></Home></Link></li>

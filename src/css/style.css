@@ -1,7 +1,8 @@
 @import url("./container.css");
+@import url("./reset.css");
 
 /* IMPORT FONTES */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 :root{
     --cor-porto: #0c87fa;
@@ -15,7 +16,7 @@
     --gradiente-fundo: linear-gradient(90deg, var(--cor-fundo) 0%, rgb(10, 57, 82) 100%);
     --gradiente-botao: linear-gradient(90deg, var(--cor-fundo), rgb(10, 134, 250), rgb(47, 203, 255));
 
-    --fonte-principal: 'Open Sans', sans-serif;
+    --fonte-principal: 'Montserrat', 'sans-serif';
 }
 
 #submit{
@@ -31,6 +32,7 @@ body{
     background: var(--gradiente-fundo);
     font-family: var(--fonte-principal);
     font-size: 1.5rem;
+    font-weight: 600;
     box-sizing: border-box;
 }
 
