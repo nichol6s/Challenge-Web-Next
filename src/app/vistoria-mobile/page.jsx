@@ -1,6 +1,7 @@
 import {GoAlertFill as Alert} from "react-icons/go"
 import Inputs from "@/components/Inputs/Inputs";
 import Layout from "@/components/Layout";
+import Link from "next/link";
 
 export default function VistoriaMobile(){
     return(
@@ -19,7 +20,7 @@ export default function VistoriaMobile(){
                     <div className="mensagem-alerta">
                         <Alert className="alert"/><p className="aviso">Atenção: a foto do número de série deve estar legível</p>
                     </div>
-                    <button className="campos__buttons__layout">Enviar</button>
+                    <Link className="campos__buttons__layout" href="vistoria-finalizada">Enviar</Link>
                 </form>
             </main>
         </Layout>

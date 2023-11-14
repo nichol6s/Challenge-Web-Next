@@ -17,6 +17,10 @@
     margin: 3% 0;
 }
 
+.container__end{
+    font-size: 2.5rem;
+}
+
 .campos__buttons__layout {
     width: 40%;
     text-decoration: none;

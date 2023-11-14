@@ -11,6 +11,7 @@ export default function Vistoria(){
                     <p>QR Code Aqui</p>
                     <p>O usuário será redirecionado para a página mobile da vistoria ao escanear</p>      
                     <Link className="link-to campos__buttons__layout" href="/vistoria-mobile">Continuar</Link>
+                    <Link className="link-to campos__buttons__layout" href="/consulta">Voltar</Link>
                 </form>
             </main>
         </Layout>
