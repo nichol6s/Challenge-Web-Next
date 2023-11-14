@@ -16,7 +16,7 @@ export default function Registro(){
                         <Inputs type="text" placeholder="Digite o modelo da bike" label="Modelo" class="campos__texto"/>
                         <Inputs type="text" placeholder="Digite a marca da bike" label="Marca" class="campos__texto"/>
                     </div>
-                    <button className="link-to-consulta campos__buttons__layout">Enviar</button>              
+                    <Link className="link-to-consulta campos__buttons__layout" href="registro-finalizado">Enviar</Link>             
                     <Link className="link-to-consulta campos__buttons__layout" href="/">Voltar</Link>
                 </form>
             </main>
