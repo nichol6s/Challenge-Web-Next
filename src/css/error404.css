@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+:root{
+    --cor-porto: #0c87fa;
+    --cor-porto-secundaria: rgb(0, 70, 192);
+    --cor-porto-terciaria: #00B2E3;
+    --cor-hover: rgb(1, 87, 236);
+    --cor-fundo: #01081C;
+    --cor-branco: #FFF;
+    --cor-preto: #000;
+
+    --gradiente-fundo: linear-gradient(90deg, var(--cor-fundo) 0%, rgb(10, 57, 82) 100%);
+    --gradiente-botao: linear-gradient(90deg, var(--cor-fundo), rgb(10, 134, 250), rgb(47, 203, 255));
+
+    --fonte-principal: 'Montserrat', 'sans-serif';
+}
+
+body {
+    background: #0b1524;
+    background-size: none;
+
+    -webkit-animation: backgroundAnimacao none;
+    animation: backgroundAnimacao none;
+}
+
 .error-section{
     display: flex;
     justify-content: center;
@@ -29,14 +52,6 @@
     padding: 1rem;
 }
 
-.stop-animation {
-    background: #0b1524;
-    background-size: none;
-
-    -webkit-animation: backgroundAnimacao none;
-    animation: backgroundAnimacao none;
-}
-
 .image{
     width: 30%;
     height: 30%;
@@ -44,6 +59,7 @@
     background-color: none;
     border: none;
 }
+
 .error-title{
     color: #FFF;
 }
