@@ -13,7 +13,7 @@ export default function VistoriaMobile(){
                     <p className="container__paragraph">Precisamos que envie uma foto da lateral de sua bike e uma de seu número de série</p>
                     <p className="container__paragraph">Por favor, digite o número de série de sua bike novamente:</p>
                     <div className="campos mobile">
-                        <Inputs type="text" placeholder="Digite seu número de série"/>
+                        <Inputs type="text" placeholder="Número de série"/>
                         <Inputs type="file" id="nSerie" label="Número de Série" for="nSerie" class="campos__upload"/>
                         <Inputs type="file" id="bike" label="Lateral da Bike" for="bike" class="campos__upload"/>
                     </div>

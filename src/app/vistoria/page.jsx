@@ -10,7 +10,6 @@ export default function Vistoria(){
                 <form className="container">
                     <h1 className="container__title">Escaneie o QR Code para iniciar a vistoria</h1>
                     <img src={`https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(qrCodeValue)}`} alt="QR Code" />
-                    <p>O usuário será redirecionado para a página mobile da vistoria ao escanear</p>      
                     <Link className="link-to campos__buttons__layout" href="/vistoria-mobile">Continuar</Link>
                     <Link className="link-to campos__buttons__layout" href="/consulta">Voltar</Link>
                 </form>
